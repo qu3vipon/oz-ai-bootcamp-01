@@ -1,6 +1,6 @@
 print("🎄" * 15)
 print("=" * 30)
-print("🎅 Merry Christmas! 🎅")
+print("🎅 Merry Christmas & Happy New Year! 🎅")
 print("   Hello World! 🌟")
 print("=" * 30)
 print("🎄" * 15)
