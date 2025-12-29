@@ -152,3 +152,15 @@ git branch -d feature/donghyeon    # 브랜치 삭제
 # 새 브랜치 생성
 git switch -c feature/binna        # 새 브랜치 생성 + 이동
 ```
+
+### Collaborator 권한
+
+| 권한 | Fork 기여자 | Collaborator |
+|------|------------|--------------|
+| push | X (본인 Fork만) | O (원본에 직접) |
+| PR 생성 | O | O |
+| PR merge | X | O |
+| 브랜치 삭제 | X | O |
+
+- **Collaborator**: 원본 저장소의 "팀원" → 직접 push, merge 가능
+- **Fork 기여자**: "외부인" → PR 보내고 관리자가 merge 해줘야 함
