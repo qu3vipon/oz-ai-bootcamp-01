@@ -1,3 +1,4 @@
 .DS_Store
 __pycache__/
 do_not_commit
+.vscode/settings.json
